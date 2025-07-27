@@ -1,0 +1,233 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "reset": "Reset",
+    "submit": "Submit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "page": "Page",
+    "of": "of",
+    "total": "Total",
+    "items": "items",
+    "results": "results",
+    "noResults": "No results found",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "admin": "Admin",
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "analytics": "Analytics"
+  },
+  "header": {
+    "searchPlaceholder": "Search products...",
+    "languageToggle": "Language",
+    "themeToggle": "Theme",
+    "cartItems": "{{count}} items in cart"
+  },
+  "footer": {
+    "companyDescription": "Your trusted e-commerce partner offering quality products with excellent service.",
+    "contact": "Contact Information",
+    "address": "123 Commerce Street, Casablanca, Morocco",
+    "phone": "+212 5XX-XXXXXX",
+    "email": "contact@yourstore.ma",
+    "followUs": "Follow Us",
+    "newsletter": "Subscribe to Newsletter",
+    "newsletterPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {{year}} Your Store. All rights reserved."
+  },
+  "products": {
+    "title": "Products",
+    "featured": "Featured Products",
+    "newArrivals": "New Arrivals",
+    "onSale": "On Sale",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "lowStock": "Low Stock",
+    "price": "Price",
+    "originalPrice": "Original Price",
+    "salePrice": "Sale Price",
+    "discount": "{{percent}}% Off",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "viewDetails": "View Details",
+    "specifications": "Specifications",
+    "description": "Description",
+    "reviews": "Reviews",
+    "rating": "Rating",
+    "noProducts": "No products found",
+    "loadMore": "Load More",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "nameAsc": "Name: A to Z",
+      "nameDesc": "Name: Z to A",
+      "popular": "Most Popular"
+    },
+    "filters": {
+      "category": "Category",
+      "priceRange": "Price Range",
+      "availability": "Availability",
+      "brand": "Brand",
+      "clearAll": "Clear All Filters"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "remove": "Remove",
+    "update": "Update Cart",
+    "proceedToCheckout": "Proceed to Checkout",
+    "itemAdded": "Item added to cart",
+    "itemRemoved": "Item removed from cart",
+    "quantityUpdated": "Quantity updated"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "information": "Information",
+      "verification": "Verification",
+      "consent": "Consent",
+      "confirmation": "Confirmation"
+    },
+    "customerInfo": "Customer Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "street": "Street Address",
+    "city": "City",
+    "state": "State/Province",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "paymentMethod": "Payment Method",
+    "shippingMethod": "Shipping Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "processing": "Processing...",
+    "consent": {
+      "title": "Data Processing Consent",
+      "text": "I agree to the processing of my personal data in accordance with Morocco's Law 08-09 on the protection of personal data. I understand that my information will be used solely for order processing and delivery.",
+      "required": "Consent is required to proceed"
+    },
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number",
+      "postalCode": "Please enter a valid postal code"
+    },
+    "success": {
+      "title": "Order Placed Successfully!",
+      "message": "Thank you for your order. You will receive a confirmation email shortly.",
+      "orderNumber": "Order Number: {{number}}",
+      "returnHome": "Return to Home"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password?",
+      "signIn": "Sign In",
+      "invalidCredentials": "Invalid email or password",
+      "accountLocked": "Account temporarily locked due to multiple failed attempts",
+      "twoFactorRequired": "Two-factor authentication required"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "overview": "Overview",
+      "totalOrders": "Total Orders",
+      "totalRevenue": "Total Revenue",
+      "totalProducts": "Total Products",
+      "totalCustomers": "Total Customers",
+      "recentOrders": "Recent Orders",
+      "topProducts": "Top Products",
+      "salesChart": "Sales Overview",
+      "ordersChart": "Orders Overview"
+    },
+    "products": {
+      "title": "Product Management",
+      "addProduct": "Add Product",
+      "editProduct": "Edit Product",
+      "deleteProduct": "Delete Product",
+      "productAdded": "Product added successfully",
+      "productUpdated": "Product updated successfully",
+      "productDeleted": "Product deleted successfully",
+      "bulkActions": "Bulk Actions",
+      "exportCsv": "Export CSV",
+      "importCsv": "Import CSV"
+    },
+    "orders": {
+      "title": "Order Management",
+      "orderDetails": "Order Details",
+      "updateStatus": "Update Status",
+      "addTracking": "Add Tracking Number",
+      "orderUpdated": "Order updated successfully",
+      "statusOptions": {
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded"
+      }
+    },
+    "analytics": {
+      "title": "Analytics",
+      "dateRange": "Date Range",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "last90Days": "Last 90 Days",
+      "customRange": "Custom Range",
+      "salesReport": "Sales Report",
+      "productReport": "Product Report",
+      "customerReport": "Customer Report",
+      "exportReport": "Export Report"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "forbidden": "Access denied.",
+    "notFound": "The requested resource was not found.",
+    "validation": "Please check your input and try again.",
+    "server": "Server error. Please try again later."
+  }
+}
