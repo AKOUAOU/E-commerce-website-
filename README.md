@@ -93,77 +93,50 @@ A comprehensive, secure, and multilingual e-commerce platform built with the MER
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Node.js 18+ and npm
-- Docker and Docker Compose
-- MongoDB (or use Docker service)
+> **📖 For detailed setup instructions, see [SETUP_GUIDE.md](SETUP_GUIDE.md)**
 
-### 1. Clone Repository
+### Option 1: Docker (Recommended - 2 minutes)
 ```bash
+# Clone repository
 git clone https://github.com/yourusername/ecommerce-showcase.git
 cd ecommerce-showcase
+
+# Start with Docker
+docker-compose up --build
+
+# Access application
+# Frontend: http://localhost:3000
+# Admin: http://localhost:3000/admin (admin@example.com / Admin123!@#)
 ```
 
-### 2. Environment Setup
+### Option 2: Manual Setup
 ```bash
-# Copy environment files
+# 1. Clone and install
+git clone https://github.com/yourusername/ecommerce-showcase.git
+cd ecommerce-showcase
+npm run install:all
+
+# 2. Configure environment
 cp server/.env.example server/.env
 cp client/.env.example client/.env
+# Edit .env files with your configuration
 
-# Install all dependencies
-npm run install:all
-```
-
-### 3. Configure Environment Variables
-
-**Server (.env)**:
-```env
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/ecommerce
-JWT_SECRET=your-super-secure-jwt-secret-key
-JWT_EXPIRE=30d
-ENCRYPTION_KEY=your-32-character-encryption-key
-RECAPTCHA_SECRET_KEY=your-recaptcha-secret-key
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=SecureAdminPassword123!
-```
-
-**Client (.env)**:
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-REACT_APP_RECAPTCHA_SITE_KEY=your-recaptcha-site-key
-```
-
-### 4. Start Development
-
-**Option A: Docker (Recommended)**
-```bash
-# Build and start all services
-npm run docker:up
-
-# View logs
-docker-compose logs -f
-```
-
-**Option B: Local Development**
-```bash
-# Start MongoDB (if not using Docker)
-mongod
-
-# Start both client and server
+# 3. Start development servers
 npm run dev
+
+# 4. Access application
+# Frontend: http://localhost:3000
+# Admin: http://localhost:3000/admin
 ```
 
-### 5. Access Application
-- **Frontend**: http://localhost:3000
-- **API**: http://localhost:5000/api
-- **Admin**: http://localhost:3000/admin
-- **API Health**: http://localhost:5000/health
+### 📋 Prerequisites
+- **Node.js** 18+ and npm
+- **MongoDB** (local or Atlas)
+- **Docker** (optional but recommended)
 
-### 6. Default Admin Login
+### 🔑 Default Admin Credentials
 - **Email**: admin@example.com
-- **Password**: Admin123!@# (change after first login)
+- **Password**: Admin123!@#
 
 ## 📁 Project Structure
 
